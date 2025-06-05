@@ -1,0 +1,10 @@
+:host {
+  display: block;
+  width: 100vw;
+  overflow-x: auto;
+}
+
+dx-gantt {
+  width: 100%;
+  min-width: 1200px; // Adjust as needed
+}
