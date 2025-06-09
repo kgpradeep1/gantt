@@ -1,4 +1,9 @@
 <router-outlet />
+<select (change)="onchange(select.value)" #select>
+  <option value=1>Cloud</option>
+  <option value=2>Security</option>
+  <option value=3>ISMS</option>
+</select>
 <div class="gantt-chart">
 <dx-gantt  scaleType="weeks" height="700">
     <dxo-tasks [dataSource]="tasks"></dxo-tasks>
